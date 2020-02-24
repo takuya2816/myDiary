@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts',  # アカウントappを登録
+    'accounts.apps.AccountsConfig',  # アカウントappを登録
 ]
 
 MIDDLEWARE = [
